@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 #container {
     flex-direction: row;
@@ -13,16 +12,17 @@
     margin-right: auto;
     justify-content: center;
     text-align: center;
-    min-height: 100px;
-
 }
 .flex-container {
     justify-content: center;
     text-align: center;
     flex: 0 0 125px;
     border-style: solid;
-    padding: 10px 5px 10px 5px;
+    padding-top: 20px;
     font-size: 64px;
+    min-height: 97px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .flex-container:hover {
     background-color: slategray;
@@ -38,7 +38,6 @@ h1 {
     background-color: slategray;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 #master-container {
     margin-left: auto;
@@ -63,4 +62,46 @@ h1 {
 }
 #turnDisplay {
     font-size: 150%;
+}
+button {
+    padding:10px;
+    border-style: none;
+}
 
+button:hover {
+    background-color: slategray;
+    color: white;
+    cursor: pointer;
+}
+
+#box1 {
+    border-left: none;
+    border-top: none;
+}
+#box2 {
+    border-top: none;
+}
+#box3 {
+    border-right: none;
+    border-top: none;
+}
+#box4 {
+    border-left: none;
+}
+#box5 {
+
+}
+#box6 {
+    border-right: none;
+}
+#box7 {
+    border-left: none;
+    border-bottom: none;
+}
+#box8 {
+    border-bottom: none;
+}
+#box9 {
+    border-right: none;
+    border-bottom: none;
+}

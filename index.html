@@ -18,21 +18,24 @@
             <div id="master-container">
                 <div id="container">
                     <div id="break"></div>
-                    <div class="flex-container"></div>
-                    <div class="flex-container">X</div>
-                    <div class="flex-container">X</div>
+                    <div class="flex-container" onclick=myTurn(1) id="box1"></div>
+                    <div class="flex-container" onclick=myTurn(2) id="box2"></div>
+                    <div class="flex-container" onclick=myTurn(3) id="box3"></div>
 
-                    <div class="flex-container">X</div>
-                    <div class="flex-container">X</div>
-                    <div class="flex-container">X</div>
+                    <div class="flex-container" onclick=myTurn(4) id="box4"></div>
+                    <div class="flex-container" onclick=myTurn(5) id="box5"></div>
+                    <div class="flex-container" onclick=myTurn(6) id="box6"></div>
 
-                    <div class="flex-container">X</div>
-                    <div class="flex-container">X</div>
-                    <div class="flex-container">X</div>
+                    <div class="flex-container" onclick=myTurn(7) id="box7"></div>
+                    <div class="flex-container" onclick=myTurn(8) id="box8"></div>
+                    <div class="flex-container" onclick=myTurn(9) id="box9"></div>
                 </div>
 
                 <div id="break"></div>
                 <div id=turnDisplay>X's Turn</div>
+                <div id="break"></div>
+                    <button id="restart" onclick=newGame()>Restart</button>
+                </div>
             </div>
         </body>
 
