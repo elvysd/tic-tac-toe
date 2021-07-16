@@ -4,7 +4,7 @@ const Player = (name, turn) => {
     const getName = () => name;
     let getTurn = () => turn;
     const userTurn = (number) => {
-        if (round == 9 && document.getElementById('box' + number).innerHTML == "") {
+        if (name == 'X' && round == 9 && document.getElementById('box' + number).innerHTML == "") {
             document.getElementById('box' + number).innerHTML = 'X';
             document.getElementById('turnDisplay').innerHTML = "Tie!";
         }
@@ -121,7 +121,6 @@ function myTurn(num) {
         console.log("End");
     }
     else if (round == 9) {
-        document.getElementById('turnDisplay').innerHTML = "Tie!";
         x.userTurn(num);
     }
     else if (round & 1) {
