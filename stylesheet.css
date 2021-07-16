@@ -33,7 +33,7 @@ h1 {
     margin-right: auto;
     text-align: center;
     width: 512px;
-    box-shadow: 5px 20px 25px grey, -5px 20px 25px grey;
+    box-shadow: 5px 20px 25px lightgrey, -5px 20px 25px lightgrey;
     padding: 3% 0 3% 0;
     background-color: slategray;
     color: white;
@@ -51,7 +51,7 @@ h1 {
     left: 0;
     margin: 0 auto;
     background-color: white;
-    box-shadow: 5px 20px 25px grey, -5px 20px 25px grey;
+    box-shadow: 5px 20px 25px lightgrey, -5px 20px 25px lightgrey;
 }
 #break {
     margin-bottom: 50px;
