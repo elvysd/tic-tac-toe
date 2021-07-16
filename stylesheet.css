@@ -36,7 +36,7 @@ h1 {
     text-align: center;
     width: 512px;
     box-shadow: 5px 20px 25px lightgrey, -5px 20px 25px lightgrey;
-    padding: 3% 0 3% 0;
+    padding: 2% 0 2% 0;
     background-color: slategray;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -56,8 +56,8 @@ h1 {
     box-shadow: 5px 20px 25px lightgrey, -5px 20px 25px lightgrey;
 }
 #break {
-    margin-bottom: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
     display: block;
     clear: both;
     width: 100%;
@@ -68,6 +68,7 @@ h1 {
 button {
     padding:10px;
     border-style: none;
+    position:static;
 }
 
 button:hover {
