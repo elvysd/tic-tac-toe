@@ -28,6 +28,7 @@
 }
 .flex-container:hover {
     background-color: slategray;
+    z-index: 9999;
     cursor: pointer;
 }
 h1 {
@@ -56,8 +57,8 @@ h1 {
     box-shadow: 5px 20px 25px lightgrey, -5px 20px 25px lightgrey;
 }
 #break {
-    margin-bottom: 1%;
-    padding-bottom: 1%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
     display: block;
     clear: both;
     width: 100%;

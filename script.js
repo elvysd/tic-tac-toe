@@ -23,7 +23,7 @@ const Player = (name, turn) => {
        }
     }
     const win = (x, y, z) => {
-        document.getElementById('box' + x).style.backgroundColor = 'slategray'
+        document.getElementById('box' + x).style.backgroundColor = 'slategray';
         document.getElementById('box' + y).style.backgroundColor = 'slategray';
         document.getElementById('box' + z).style.backgroundColor = 'slategray';
 
@@ -139,8 +139,9 @@ function newGame() {
     document.getElementById('restart').innerHTML = "Restart";
 
     for (let i=1; i<= 9; i++) {
-        document.getElementById('box' + i).style.backgroundColor = 'white';
+        document.getElementById('box' + i).style.backgroundColor = '';
         document.getElementById('box' + i).innerHTML = "";
     }
     round = 1;
 }
+
