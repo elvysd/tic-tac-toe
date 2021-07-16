@@ -16,13 +16,15 @@
 .flex-container {
     justify-content: center;
     text-align: center;
-    flex: 0 0 145px;
+    flex: 0 0 135px;
     border-style: solid;
     padding-top: 20px;
     font-size: 64px;
     min-height: 97px;
     margin-top: auto;
     margin-bottom: auto;
+    min-width: 135px;
+    max-width: 135px;
 }
 .flex-container:hover {
     background-color: slategray;
